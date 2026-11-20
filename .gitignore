@@ -1,0 +1,27 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local credentials and settings
+.env
+.env.*
+!.env.example
+
+# Local inputs and generated outputs
+/data/raw/
+/data/private/
+/outputs/
+
+# Original Google Maps exports and combined review data
+lrt_kl_sentral_review.csv
+lrt_kl_sentral_overview.csv
+combined_transit_reviews.csv
+
+# Original operations export used to validate the reconstruction
+final_transit_master_combined.csv
+
+# Power BI working files pending review
+*.pbix
