@@ -32,6 +32,33 @@ Public transport schedules are published across different operators, while commu
 | Peak Hour Insights | Scheduled activity across time periods |
 | User Manual | How to navigate and use the dashboard |
 
+## Dashboard preview
+
+Screenshots from the submitted FYP. Use the live Power BI link above to interact with the report and its filters.
+
+### Overview
+
+![Overview with stop counts, station ratings, and sentiment breakdown](screenshots/overview.jpg)
+
+### Operational Insights
+
+![Transport mode filters, stop map, and scheduled segment metrics](screenshots/operational-insights.jpg)
+
+### Sentiment Analysis
+
+![VADER sentiment scores and review sentiment distributions by transport mode](screenshots/sentiment-analysis.jpg)
+
+### Peak Hour Insights
+
+![Scheduled activity, dwell time, and estimated speed by time period](screenshots/peak-hour-insights.jpg)
+
+The schedule data describes planned service. The time-period charts summarize scheduled activity and do not measure passenger demand.
+
+## Project documentation
+
+- [Data sources and column definitions](docs/data-dictionary.md)
+- [How to run the reconstructed Python pipelines](docs/running-the-project.md)
+
 ## Findings from the original outputs
 
 - The final operations export contains **288,719 rows** across KTM, LRT, MRT, Monorail, BRT and BAS.MY. BAS.MY accounts for **283,236 rows**, so comparisons across modes should account for the difference in dataset size.
